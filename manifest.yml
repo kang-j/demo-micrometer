@@ -3,3 +3,5 @@ applications:
   instances: 3
   memory: 768M
   path: target/demo-micrometer-0.0.1-SNAPSHOT.jar
+  env:
+    MANAGEMENT_METRICS_TAGS_ORG_NAME: dx-div
